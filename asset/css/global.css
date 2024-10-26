@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Open Sans", Tahoma, Arial, Helvetica;
+  src: url(../fonts/OpenSans_Condensed-Regular.ttf);
+}
+
+ul,
+li,
+ol {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  text-align: center;
+  color: inherit;
+
+  &:visited {
+    color: inherit;
+  }
+}
